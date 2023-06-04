@@ -1404,9 +1404,9 @@ hr {
       transform: rotate(359deg);
   }
 }
-.w3-animate-fading {
+/* .w3-animate-fading {
   animation: fading 10s infinite;
-}
+} */
 @keyframes fading {
   0% {
       opacity: 0;
