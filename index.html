@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Bharathi Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Bharathi</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Bharathi</span><br> Full Stack Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href=" https://www.linkedin.com/in/bharathikorupolu/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/SaiBharathiKorupolu" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="img/circle.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="img/IMG_0128.jpg" alt="">
+                    </div> 
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Bharathi</h2>
+                        <p class="about__text">Dedicated and efficient full stack developer with expertise in frontend layer with 5 years of experience. 
+                            Looking for a new opportunity to expand my horizons and shape my future through technology.</p>           
+                        <div class="download-cv">
+                            <a href="files/Bharathi-Resume.pdf" 
+                                target="_blank" download="Resume-Bharathi">
+                                <button class="download-button button">
+                                    <i class='bx bx-download'></i>
+                                    Download Resume
+                                </button>
+                            </a>
+                        </div>
+                </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development Skills</h3>
+                        <span class="skills__name">React.js</span>
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__name">TypeScript</span>
+                        <span class="skills__name">Redux</span>
+                        <span class="skills__name">Styled Components</span>
+                        <span class="skills__name">Jest</span>
+                        <span class="skills__name">HTML</span>
+                        <span class="skills__name">CSS3</span>
+                        <span class="skills__name">Node.js</span>
+                        <span class="skills__name">Express.js</span>
+                        <span class="skills__name">Oracle SQL</span>
+                        <span class="skills__name">MongoDB</span>
+                        <span class="skills__name">Core Java</span>
+
+                        <h3 class="skills__subtitle">Other Skills</h3>
+                        <span class="skills__name">Git</span>
+                        <span class="skills__name">Bitbucket</span>
+                        <span class="skills__name">VS Code</span>
+                        <span class="skills__name">Jira</span>
+                        <span class="skills__name">Eclipse</span>
+                    </div>
+                                
+
+                    
+                    <div>              
+                        <img src="img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="img/ReactMeal.JPG" alt="" 
+                        onclick="document.getElementById('id01').style.display='block'">
+                    </div>
+                    <div class="work__img">
+                        <img src="img/ExpenseTracker.JPG" alt=""
+                        onclick="document.getElementById('id02').style.display='block'">
+                    </div>
+                    <div class="work__img">
+                        <img src="img/todos.JPG" alt=""
+                        onclick="document.getElementById('id03').style.display='block'">
+                    </div>
+                    <div class="work__img">
+                        <img src="img/TVimg.png" alt="" 
+                        onclick="document.getElementById('id04').style.display='block'">
+                    </div>
+                </div>
+
+                
+                    <!-- Modal start id01 -->
+                    <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue w3-large"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-blue w3-medium w3-display-topright">&times;</span>
+                                <h2>ReactMeals</h2>
+                            </header>
+
+                            <div class="w3-bar w3-border-bottom">
+                                <button class="tablink w3-bar-item w3-button" onclick="reactmeals(event, 'Description')">Description</button>
+                                <button class="tablink w3-bar-item w3-button" onclick="reactmeals(event, 'Skills')">Technologies used</button>
+                                <button class="tablink w3-bar-item w3-button" onclick="reactmeals(event, 'Features')">Features</button>
+                            </div>
+
+                            <div id="Skills" class="w3-container reactmeals">
+                                <p>React.js, Context API, JavaScript, HTML, CSS</p>
+                            </div>
+
+                            <div id="Features" class="w3-container reactmeals">
+                                <p>- Semi featured food order app</p>
+                                <p>- Menu details and price</p>
+                                <p>- User profile with orders</p>
+                                <p>- Mark orders as delivered option</p>
+                            </div>
+
+                            <div id="Description" class="w3-container reactmeals">
+                                <p>- A food order application build with React</p>
+                            </div>
+
+                            <div class="w3-container w3-light-grey w3-padding">
+                                <button class="w3-button w3-left w3-white w3-border" 
+                                    onclick="window.open('https://647c831c0939cc0008b738ec--adorable-unicorn-acd1d8.netlify.app/', '_blank')">See Live</button>
+                                <button class="w3-button w3-right w3-white w3-border" 
+                                    onclick="document.getElementById('id01').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal End id01 -->
+
+                      <!-- Modal start id02 -->
+                      <div id="id02" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue w3-large"> 
+                                <span onclick="document.getElementById('id02').style.display='none'" 
+                                class="w3-button w3-blue w3-medium w3-display-topright">&times;</span>
+                                <h2>Expense Tracker</h2>
+                            </header>
+
+                            <div class="w3-bar w3-border-bottom">
+                                <button class="tablink2 w3-bar-item w3-button" onclick="expenseTracker(event, 'ExpDescription')">Description</button>
+                                <button class="tablink2 w3-bar-item w3-button" onclick="expenseTracker(event, 'ExpSkills')">Technologies used</button>
+                                <button class="tablink2 w3-bar-item w3-button" onclick="expenseTracker(event, 'ExpFeatures')">Features</button>
+                            </div>
+
+                            <div id="ExpSkills" class="w3-container exptrack">
+                                <p>React.js, Context API, HTML , CSS</p>
+                            </div>
+
+                            <div id="ExpFeatures" class="w3-container exptrack">
+                                <p>- Add your daily expense</p>
+                                <p>- Filter your expenses by year</p>
+                            </div>
+
+                            <div id="ExpDescription" class="w3-container exptrack">
+                                <p>To track expense and know your maximum expenditure month in a year</p>
+                            </div>
+
+                            <div class="w3-container w3-light-grey w3-padding">
+                                <button class="w3-button w3-left w3-white w3-border" 
+                                    onclick="window.open('https://objective-golick-f761d3.netlify.app/', '_blank')">See Live</button>
+                                <button class="w3-button w3-right w3-white w3-border" 
+                                    onclick="document.getElementById('id02').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal End id02 -->
+
+                     <!-- Modal start id03 -->
+                     <div id="id03" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue w3-large"> 
+                                <span onclick="document.getElementById('id03').style.display='none'" 
+                                class="w3-button w3-blue w3-medium w3-display-topright">&times;</span>
+                                <h2>ToDo</h2>
+                            </header>
+
+                            <div class="w3-bar w3-border-bottom">
+                                <button class="tablink3 w3-bar-item w3-button" onclick="todo(event, 'todoDescription')">Description</button>
+                                <button class="tablink3 w3-bar-item w3-button" onclick="todo(event, 'todoSkills')">Technologies used</button>
+                                <button class="tablink3 w3-bar-item w3-button" onclick="todo(event, 'todoFeatures')">Features</button>
+                            </div>
+
+                            <div id="todoSkills" class="w3-container todo">
+                                <p>JavaScript, HTML, CSS</p>
+                            </div>
+
+                            <div id="todoFeatures" class="w3-container todo">
+                                <p>- Add your todo list</p>
+                                <p>- Toggle the completed task</p>
+                                <p>- Delete Todo</p>
+                            </div>
+
+                            <div id="todoDescription" class="w3-container todo">
+                                <p>ToDo App is simple and awesome app to organize your tasks with very easy to use interface.</p>
+                            </div>
+
+                            <div class="w3-container w3-light-grey w3-padding">
+                                <button class="w3-button w3-left w3-white w3-border" 
+                                    onclick="window.open('https://agitated-kilby-d2fdb3.netlify.app/', '_blank')">See Live</button>
+                                <button class="w3-button w3-right w3-white w3-border" 
+                                    onclick="document.getElementById('id03').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal End id03 -->
+
+                 <!-- Modal start id04 -->
+                 <div id="id04" class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                        <header class="w3-container w3-blue w3-large"> 
+                            <span onclick="document.getElementById('id04').style.display='none'" 
+                            class="w3-button w3-blue w3-medium w3-display-topright">&times;</span>
+                            <h2>MyTunes</h2>
+                        </header>
+
+                        <div class="w3-bar w3-border-bottom">
+                            <button class="tablink4 w3-bar-item w3-button" onclick="mytunes(event, 'libDescription')">Description</button>
+                            <button class="tablink4 w3-bar-item w3-button" onclick="mytunes(event, 'libSkills')">Technologies used</button>
+                        </div>
+
+                        <div id="libSkills" class="w3-container mytunes">
+                            <p>HTML5,CSS3</p>
+                        </div>
+
+                        <div id="libDescription" class="w3-container mytunes">
+                            <p>Simple Music Webpage</p>
+                        </div>
+
+                        <div class="w3-container w3-light-grey w3-padding">
+                            <button class="w3-button w3-left w3-white w3-border" 
+                                onclick="window.open('https://unruffled-khorana-aa1fa8.netlify.app/', '_blank')">See Live</button>
+                            <button class="w3-button w3-right w3-white w3-border" 
+                                onclick="document.getElementById('id04').style.display='none'">Close</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal End id04 -->
+
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">bharathi.korupolu@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 95732-81150</span>
+
+                        <h3 class="contact__subtitle">CURRENT PLACE</h3>
+                        <span class="contact__text">Visakhapatnam</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Bharathi</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
